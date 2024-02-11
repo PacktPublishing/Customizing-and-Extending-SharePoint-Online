@@ -1,0 +1,82 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+    "height": "300",
+    "width": "200",
+    "formatter": {
+        "elmType": "div",
+        "style": {
+            "display": "flex",
+            "align-items": "stretch",
+            "margin-bottom": "16px",
+            "min-width": "150px",
+            "flex-grow": "1",
+            "justify-content": "space-around",
+            "padding": "5px"
+        },
+        "children": [
+            {
+                "elmType": "div",
+                "style": {
+                    "width": "95%",
+                    "height": "92%",
+                    "box-shadow": "0px 1.6px 3.6px 0 #00000024, 0px 0.3px 0.9px 0 #00000024",
+                    "overflow": "hidden",
+                    "border-radius": "2px",
+                    "padding-left": "16px",
+                    "padding-top": "16px"
+                },
+                "attributes": {
+                    "class": "ms-bgColor-neutralLighterAlt"
+                },
+                "children": [
+                    {
+                        "elmType": "img",
+                        "attributes": {
+                            "src": "=getThumbnailImage([$Employeephoto],100,100)"
+                        },
+                        "style": {
+                            "border-radius": "50%",
+                            "object-fit": "cover",
+                            "height": "100px",
+                            "width": "100px",
+                            "padding": "2px",
+                            "border": "1px solid #D3D3D3"
+                        }
+                    },
+                    {
+                        "elmType": "div",
+                        "children": [
+                            {
+                                "elmType": "span",
+                                "txtContent": "[$Title]",
+                                "style": {
+                                    "font-weight": "600",
+                                    "font-size": "16px"
+                                }
+                            },
+                            {
+                                "elmType": "span",
+                                "txtContent": "=[$Department1]",
+                                "style": {
+                                    "display": "inline-block"
+                                }
+                            },
+                            {
+                                "elmType": "span",
+                                "txtContent": "=[$Phonenumber]",
+                                "style": {
+                                    "display": "inline-block"
+                                }
+                            }
+                        ],
+                        "style": {
+                            "display": "flex",
+                            "flex-direction": "column",
+                            "padding-left": "10px"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
