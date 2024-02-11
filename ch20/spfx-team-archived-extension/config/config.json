@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "team-archived-application-extensions-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/teamArchivedApplicationExtensions/TeamArchivedApplicationExtensionsApplicationCustomizer.js",
+          "manifest": "./src/extensions/teamArchivedApplicationExtensions/TeamArchivedApplicationExtensionsApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TeamArchivedApplicationExtensionsApplicationCustomizerStrings": "lib/extensions/teamArchivedApplicationExtensions/loc/{locale}.js"
+  }
+}

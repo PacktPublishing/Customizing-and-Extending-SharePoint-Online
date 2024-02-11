@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="TeamArchivedApplicationExtensions"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="d001f520-afd7-4aae-ac0f-665a6fdb9ec5"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}"
+        WebTemplateId="GROUP#0"
+        >
+    </ClientSideComponentInstance>
+</Elements>
+
+

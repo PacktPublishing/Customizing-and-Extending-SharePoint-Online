@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://tenant.sharepoint.com/sites/archived-team/SitePages/home.aspx",
+      "customActions": {
+        "d001f520-afd7-4aae-ac0f-665a6fdb9ec5": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "teamArchivedApplicationExtensions": {
+      "pageUrl": "https://mattip.sharepoint.com/SitePages/test.aspx",
+      "customActions": {
+        "d001f520-afd7-4aae-ac0f-665a6fdb9ec5": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
