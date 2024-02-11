@@ -1,0 +1,23 @@
+{
+    "$schema": https: //developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json, 
+    "elmType": "div",
+    "attributes": {
+        "class": "=if(@currentField == 'Done', 'sp-field-severity--good',if(@currentField == 'In Progress','sp-	field-severity--warning',if(@currentField == 'New','sp-field-severity--severeWarning',''))"
+    },
+    "children": [
+        {
+            "elmType": "span",
+            "style": {
+                "display": "inline-block",
+                "padding": "0 4px"
+            },
+            "attributes": {
+                "iconName": "=if(@currentField == 'Done', 'CheckMark', if(@currentField == 'In Progress', 	'ProgressRingDots', if(@currentField == 'New', 'Info', 	'')))"
+            }
+        },
+        {
+            "elmType": "span",
+            "txtContent": "@currentField"
+        }
+    ]
+}
