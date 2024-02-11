@@ -1,0 +1,9 @@
+{"$schema": “https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json”, 
+"elmType": "div", 
+"children": [ 
+{ 
+	"elmType": "span", "style":{"font-size":"24px"}, 
+	"txtContent":"☎️" 
+},{ 
+	"elmType": "span", "txtContent":"@currentField" 
+}]}
