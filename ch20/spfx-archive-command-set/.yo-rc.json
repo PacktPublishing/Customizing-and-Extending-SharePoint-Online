@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.19.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "spfx-archive-command-set",
+    "libraryId": "50619722-518a-4426-a080-e8ef0dc444c3",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-archive-command-set",
+    "solutionShortDescription": "spfx-archive-command-set description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}
