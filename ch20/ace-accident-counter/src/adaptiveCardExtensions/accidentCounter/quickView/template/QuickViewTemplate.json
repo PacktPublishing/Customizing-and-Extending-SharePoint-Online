@@ -1,0 +1,110 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+          {
+              "type": "Column",
+              "width": "85",
+              "style":"${thisMonthStyle}",
+              "items": [
+                  {
+                      "type": "TextBlock",
+                      "text": "Accidents in this month: ",
+                      "wrap": true,
+                      "size": "Medium",
+                      "separator": true, "weight": "Bolder"
+                  }
+              ]
+          },
+          {
+              "type": "Column",
+              "width": "15",
+              "style":"${thisMonthStyle}",              
+              "items": [
+                  {
+                      "type": "TextBlock",
+                      "text": "${accidentsThisMonth}",
+                      "wrap": true,
+                      "size": "Medium","weight": "Bolder"
+                  }
+              ]
+          }
+      ]
+  },  
+  {
+    "type": "ColumnSet",
+    "columns": [
+        {
+            "type": "Column",
+            "width": "85",
+            "style":"${lastMonthStyle}",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Accidents in last month:",
+                    "wrap": true,
+                    "size": "Medium",
+                    "separator": true, "weight": "Bolder"
+                }
+            ]
+        },
+        {
+            "type": "Column",
+            "width": "15",
+            "style":"${lastMonthStyle}",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "${accidentsLastMonth}",
+                    "wrap": true,
+                    "color": "Good",
+                    "size": "Medium","weight": "Bolder"
+                }
+            ]
+        }
+    ]
+},  
+{
+  "type": "ColumnSet",
+  "columns": [
+      {
+          "type": "Column",
+          "width": "85",
+          "style":"${thisYearStyle}",
+          "items": [
+              {
+                  "type": "TextBlock",
+                  "text": "Accidents during this year:",
+                  "wrap": true,
+                  "size": "Medium",
+                  "separator": true, "weight": "Bolder"
+              }
+          ]
+      },
+      {
+          "type": "Column",
+          "width": "15",
+          "style":"${thisYearStyle}",
+          "items": [
+              {
+                  "type": "TextBlock",
+                  "text": "${accidentsInThisYear}",
+                  "wrap": true,
+                  "color": "Good",
+                  "size": "Medium","weight": "Bolder"
+              }
+          ]
+      }
+  ]
+}
+    
+    
+    
+    
+  
+  ]
+}

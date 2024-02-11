@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ace-accident-counter-client-side-solution",
+    "id": "23c9bae9-671c-45a2-824a-2b986ff0bfe9",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ace-accident-counter description"
+      },
+      "longDescription": {
+        "default": "ace-accident-counter description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "ace-accident-counter Feature",
+        "description": "The feature that activates elements of the ace-accident-counter solution.",
+        "id": "544360e9-d768-42c9-9229-844593e127e8",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ace-accident-counter.sppkg"
+  }
+}
