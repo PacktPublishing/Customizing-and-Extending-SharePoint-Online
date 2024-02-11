@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-dynamic-form-customizer-client-side-solution",
+    "id": "b19f58cc-b108-4304-b39c-6970a19f4180",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-dynamic-form-customizer description"
+      },
+      "longDescription": {
+        "default": "spfx-dynamic-form-customizer description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-dynamic-form-customizer Feature",
+        "description": "The feature that activates elements of the spfx-dynamic-form-customizer solution.",
+        "id": "fc8a3fb3-1d3d-4626-8485-3de3226fd1ef",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-dynamic-form-customizer.sppkg"
+  }
+}

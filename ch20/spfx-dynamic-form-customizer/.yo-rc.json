@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.19.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "spfx-dynamic-form-customizer",
+    "libraryId": "b19f58cc-b108-4304-b39c-6970a19f4180",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-dynamic-form-customizer",
+    "solutionShortDescription": "spfx-dynamic-form-customizer description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "FormCustomizer"
+  }
+}

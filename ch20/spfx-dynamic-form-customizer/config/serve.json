@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://{tenantDomain}/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "14258826-cffc-4a31-8f88-5f0979e3379a",
+        "PageType": 8,
+        "RootFolder": "/sites/HRTeam/Lists/Employee%20onboarding%20tasks",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "dynamicForm_NewForm": {
+      "pageUrl": "https://{tenantDomain}/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "14258826-cffc-4a31-8f88-5f0979e3379a",
+        "PageType": 8,
+        "RootFolder": "/sites/HRTeam/Lists/Employee%20onboarding%20tasks",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "dynamicForm_EditForm": {
+      "pageUrl": "https://{tenantDomain}/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "14258826-cffc-4a31-8f88-5f0979e3379a",
+        "PageType": 6,
+        "RootFolder": "/sites/HRTeam/Lists/Employee%20onboarding%20tasks",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "dynamicForm_ViewForm": {
+      "pageUrl": "https://{tenantDomain}/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "14258826-cffc-4a31-8f88-5f0979e3379a",
+        "PageType": 4,
+        "RootFolder": "/sites/HRTeam/Lists/Employee%20onboarding%20tasks",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    }
+  }
+}
