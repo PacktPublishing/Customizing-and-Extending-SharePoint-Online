@@ -1,0 +1,63 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+    "hideColumnHeader": true,
+    "hideSelection": true,
+    "rowFormatter": {
+        "elmType": "div",
+        "children": [
+            {
+                "elmType": "img",
+                "attributes": {
+                    "src": "=getThumbnailImage([$Employeephoto],100,100)"
+                },
+                "style": {
+                    "border-radius": "50%",
+                    "object-fit": "cover",
+                    "height": "100px",
+                    "width": "100px",
+                    "padding": "2px",
+                    "border": "1px solid #D3D3D3"
+                }
+            },
+            {
+                "elmType": "div",
+                "children": [
+                    {
+                        "elmType": "span",
+                        "txtContent": "[$Title]",
+                        "style": {
+                            "font-weight": "600",
+                            "font-size": "16px"
+                        }
+                    },
+                    {
+                        "elmType": "span",
+                        "txtContent": "=[$Department1]",
+                        "style": {
+                            "display": "inline-block"
+                        }
+                    },
+                    {
+                        "elmType": "span",
+                        "txtContent": "=[$Phonenumber]",
+                        "style": {
+                            "display": "inline-block"
+                        }
+                    }
+                ],
+                "style": {
+                    "display": "flex",
+                    "flex-direction": "column",
+                    "padding-left": "10px"
+                }
+            }
+        ],
+        "style": {
+            "border": "1px solid #000",
+            "width": "500px",
+            "height": "150px",
+            "background-color": "#E8E8E8",
+            "padding": "0 0 10px 10px"
+        }
+    }
+}
