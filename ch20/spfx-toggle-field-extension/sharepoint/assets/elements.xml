@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Field ID="{e7718687-fd24-476a-b262-c7471dc694ce}"
+            Name="Completed"
+            DisplayName="Completed?"
+            Type="Boolean"
+            Group="SPFx Columns"
+            ClientSideComponentId="2cc69764-0431-4df6-a386-f46ddfc25355">
+    </Field>
+</Elements>

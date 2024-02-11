@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.19.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "spfx-toggle-field-extension",
+    "libraryId": "12e98aed-dbfb-446b-a295-8cf7c0acffe7",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-toggle-field-extension",
+    "solutionShortDescription": "spfx-toggle-field-extension description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "FieldCustomizer"
+  }
+}

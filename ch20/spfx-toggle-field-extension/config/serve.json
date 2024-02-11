@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://m365x58225286.sharepoint.com/sites/HRTeam/Lists/Employee%20onboarding%20tasks/AllItems.aspx",
+      "fieldCustomizers": {
+        "Complete": {
+          "id": "2cc69764-0431-4df6-a386-f46ddfc25355",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    },
+    "toggleFieldExtension": {
+      "pageUrl": "https://m365x58225286.sharepoint.com/sites/HRTeam/Lists/Employee%20onboarding%20tasks/AllItems.aspx",
+      "fieldCustomizers": {
+        "Complete": {
+          "id": "2cc69764-0431-4df6-a386-f46ddfc25355",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}
