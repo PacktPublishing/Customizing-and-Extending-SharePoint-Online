@@ -1,3 +1,5 @@
+<p align='center'><a href='https://www.eventbrite.com/e/ship-production-pytorch-system-in-a-day-train-optimize-deploy-workshop-tickets-1983348934052?aff=GitHub'><img src='https://static.packt-cdn.com/assets/images/packt+events/workshop_ashish_github.png'/></a></p>
+
 # Customizing and Extending SharePoint Online
 
 <a href="https://www.packtpub.com/product/customizing-and-extending-sharepoint-online/9781803244891"><img src="https://content.packt.com/B18660/cover_image_small.jpg" alt="no-image" height="256px" align="right"></a>
